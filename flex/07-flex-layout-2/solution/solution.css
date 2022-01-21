@@ -29,28 +29,12 @@ body {
 
 /* SOLUTION */
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
-}
 
 .body {
   flex: 1;
   display: flex;
 }
 
-.sidebar {
-  flex-shrink: 0;
-  padding: 16px;
-}
 
 ul {
   list-style-type: none;
@@ -74,14 +58,4 @@ a {
   flex-wrap: wrap;
 }
 
-.card {
-  padding: 16px;
-  margin: 16px;
-  width: 300px;
-}
 
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
